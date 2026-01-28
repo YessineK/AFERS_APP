@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".account"
+
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select account type"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#1B1A17"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        >
+
+        <!-- Row 1 -->
+        <TableRow android:background="@drawable/rectangle_bg"
+            >
+
+            <RadioButton
+                android:id="@+id/radioPaid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event related services provider"
+                android:textSize="17sp"
+                android:textColor="#13010A"
+
+
+                />
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="Paid"
+                android:backgroundTint="#C1002E"
+                android:layout_marginLeft="10dp"
+                />
+        </TableRow>
+        <TableRow android:background="@drawable/rectangle_bg"
+            android:layout_marginTop="5dp"
+            >
+            <RadioButton
+                android:id="@+id/radioFree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Planner/normal user"
+                android:textSize="17sp"
+                android:textColor="#13010A"
+
+                />
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="FREE"
+                android:backgroundTint="#C1002E"
+                android:layout_marginLeft="10dp"
+                />
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payement methods"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#1B1A17"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        >
+
+        <!-- Row 1 -->
+        <TableRow android:background="@drawable/rectangle_bg"
+            >
+
+            <RadioButton
+                android:id="@+id/apple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple Play                                    "
+                android:textSize="17sp"
+                android:textColor="#13010A"
+
+                />
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:background="@drawable/pay"
+                android:backgroundTint="#0C0E1B"
+                android:layout_marginLeft="10dp"
+                />
+        </TableRow>
+        <TableRow android:background="@drawable/rectangle_bg"
+            android:layout_marginTop="5dp"
+            >
+            <RadioButton
+                android:id="@+id/visa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credit Card"
+                android:textSize="17sp"
+                android:textColor="#13010A"
+
+                />
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:background="@drawable/visa"
+                android:backgroundTint="#001AC1"
+                android:layout_marginLeft="10dp"
+                />
+        </TableRow>
+        <TableRow android:background="@drawable/rectangle_bg"
+            android:layout_marginTop="5dp"
+            >
+            <RadioButton
+                android:id="@+id/wire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wire Transfer"
+                android:textSize="17sp"
+                android:textColor="#13010A"
+
+                />
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:background="@drawable/wire"
+                android:backgroundTint="#33AF37"
+                android:layout_marginLeft="10dp"
+                />
+        </TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str"
+            android:textSize="15sp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str2"
+            android:textColor="#C1002E"
+            android:textSize="15sp"
+
+            />
+        <TableRow
+            android:layout_marginTop="5dp"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:background="@drawable/price"
+                android:backgroundTint="#000C01"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="#13010A"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 25 DT"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                />
+
+        </TableRow>
+        <Button
+            android:id="@+id/btnAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1B1A17"
+            android:padding="10dp"
+            android:text="Free Account"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            />
+    </TableLayout>
+
+
+
+</LinearLayout>

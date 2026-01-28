@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyApplicationProject</string>
+    <string name="str">if you are a service provider you must pay a small fee to promote your business in our platform. the fee is based on monthly subscription,other subscription plans are here.</string>
+    <string name="str2">First month is a free trial.</string>
+</resources>

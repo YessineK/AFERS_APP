@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "778332932297",
+    "project_id": "moheddineproject",
+    "storage_bucket": "moheddineproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778332932297:android:b8ec1db519f2e5c7916518",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778332932297-p2bf8i755iujd57k589p8fbbj718804o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw-KnmuK5SIW89lv_JnW8ALpQ2SbTiplA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778332932297-p2bf8i755iujd57k589p8fbbj718804o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

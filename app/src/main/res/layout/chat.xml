@@ -1,0 +1,78 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chat"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/chatEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|start"
+            android:inputType="textMultiLine"
+            android:maxLines="100"
+            android:scrollbars="vertical"
+            android:text="Chat bot Assitant ."
+
+            android:textSize="16sp" />
+
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/messageEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your message..."
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/sendButtonChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
+<com.google.android.material.bottomappbar.BottomAppBar
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_gravity="bottom"
+android:id="@+id/bottomAppBar"
+app:fabCradleMargin="10dp"
+app:fabCradleRoundedCornerRadius="10dp"
+app:fabCradleVerticalOffset="10dp"
+    >
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bottomNavigationView"
+    android:layout_marginRight="16dp"
+    app:menu="@menu/bottom_nav_menu"
+    android:background="@drawable/transparent_background"
+
+    tools:ignore="DuplicateIds" />
+</com.google.android.material.bottomappbar.BottomAppBar>
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/fab"
+android:src="@drawable/ic_baseline_add_24"
+app:layout_anchor="@id/bottomAppBar"
+
+    />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>

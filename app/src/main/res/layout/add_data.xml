@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Add">
+    <ImageButton
+        android:id="@+id/imageAdd"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/add_photo"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+
+
+            />
+        <!--EditText for user password-->
+        <EditText
+            android:id="@+id/inputTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Title of product"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="#616161"
+            android:layout_marginRight="20dp"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adresse"
+        android:layout_marginLeft="20dp"
+
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginRight="10dp"
+
+        />
+    <!--EditText for user password-->
+    <EditText
+        android:id="@+id/inputAddresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Adresse"
+        android:inputType="text"
+        android:padding="10dp"
+
+        android:layout_marginLeft="20dp"
+        android:textColorHint="#616161"
+        android:layout_marginRight="20dp"
+        />
+    <Button
+        android:id="@+id/addproduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#C1002E"
+        android:padding="10dp"
+        android:hint="Add product"
+        android:textSize="18sp"
+        android:textColorHint="#FFFFFF"
+
+        />
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#131313"
+        android:padding="10dp"
+        android:hint="Show product"
+        android:textSize="18sp"
+        android:textColorHint="#FFFFFF"
+
+        />
+</LinearLayout>
